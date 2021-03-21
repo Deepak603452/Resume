@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+	<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RESUME</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+
+		<link rel="stylesheet" href="css/style.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+
+	</head>
+
+<style type="text/css">
+  .rotate{
+    
+  }
+</style>
+
+	<body>
+	<div class="svg-wrap">
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-left" d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z"></path>
+      </svg>
+
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-right" d="M37.333 10.667q1.125 0 1.896 0.771l18.667 18.667q0.771 0.771 0.771 1.896t-0.771 1.896l-18.667 18.667q-0.771 0.771-1.896 0.771-1.146 0-1.906-0.76t-0.76-1.906q0-1.125 0.771-1.896l14.125-14.104h-41.563q-1.104 0-1.885-0.781t-0.781-1.885 0.781-1.885 1.885-0.781h41.563l-14.125-14.104q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z"></path>
+      </svg>
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+
+   <div class="container-fluid">
+
+    <!-- HEADER -->
+
+    <section id="header">
+
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-fixed-top navbar-default bottom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#header">DEEPAK</a>
+          </div><!-- /.navbar-header -->
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#header">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>              
+              <li><a href="#portfolio">SKILL</a></li>
+			  <li><a href="#team">EDUCATION</a></li>
+			  <li><a href="#info">EXPERTISE</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+      </nav>
+
+      <!-- SLIDER -->
+      <div class="header-slide">
+        <section>
+          <div id="loader" class="pageload-overlay" data-opening="M 0,0 0,60 80,60 80,0 z M 80,0 40,30 0,60 40,30 z">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+              <path d="M 0,0 0,60 80,60 80,0 Z M 80,0 80,60 0,60 0,0 Z"/>
+            </svg>
+          </div> <!-- /.pageload-overlay -->
+          
+          <div class="image-slide bg-fixed">
+            <div class="overlay">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+
+                    <div class="slider-content">
+                      <h1></h1>
+                      <p>Hii! I AM BEGINNER IN WEB DESIGNING</p>
+                    </div>
+
+                  </div>
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+
+          <nav class="nav-slide">
+            <a class="prev" href="#prev">
+              <span class="icon-wrap">
+                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
+                  <use xlink:href="#arrow-left">
+                </svg>
+              </span>
+              <div>
+                <span></span>
+                <h3>...</h3>
+                <p>...</p>
+                <img alt="Previous thumb">
+              </div>
+            </a>
+            <a class="next" href="#next">
+              <span class="icon-wrap">
+                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
+                  <use xlink:href="#arrow-right">
+                </svg>
+              </span>
+              <div>
+                <span></span>
+                <h3>...</h3>
+                <p>...</p>
+                <img alt="Next thumb">
+              </div>
+            </a>
+          </nav>
+        </section>
+
+        <script type="text/javascript">
+        var dataHeader = [
+                            {
+                              bigImage :"images/slide-1.jpg",
+                              title : "Intro",
+							  author : "DEEPAK"
+                            },
+                            {
+                              bigImage :"images/slide-2.jpg",
+                              title : "I'm A BOSS",
+                              author : "DEEPAK"
+                            },
+                            {
+                              bigImage :"images/slide-3.jpg",
+                              title : "HII! I AM A BOSS.",
+                              author : "DEEPAK"
+                            }
+                        ],
+            loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 600, speedOut : 600, easingIn : mina.easeinout});
+            loaderSVG.show()
+        </script>
+
+      </div><!-- /.header-slide -->
+    </section>
+
+    <!-- HEADER END -->
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="light">
+      <header class="title">
+        <h2>About <span>Us</span></h2>
+        <p style="color: #444;">I'm a student at Maharishi Dayanand University (MDU), graduate a Bachelor's Degree in Electronic Communication Engineering.Iam interested in programming and also in developing cool websites.Want to secure a challenging position where I can effectively contribute my skills, and innovative ideas to gain knowledge in the work oriented environment. </p>
+      </header>
+
+      <div class="container">
+        <div class="row table-row">
+          <div class="col-sm-6 hidden-xs">
+            <div class="section-content">
+              <div class="big-image" style="background-image:url(DSC_0954.JPG)"></div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="section-content">
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                
+                <div class="about-detail">
+                  <h4>NAME:</h4>
+                  <span>DEEPAK.</span>
+                </div>
+              </div>
+
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                
+                <div class="about-detail">
+                  <h4>DATE OF BIRTH:</h4>
+                  <span>25,November,1994.</span>
+                </div>
+              </div>
+
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                
+                <div class="about-detail">
+                  <h4>MOBILE no:</h4>
+                  <span>7011672160.</span>
+                </div>
+              </div>
+
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                
+                <div class="about-detail">
+                  <h4>ADRESS:</h4>
+                  <span>Sultan Puri,Delhi.</span>
+                </div>
+              </div>
+
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                
+                <div class="about-detail">
+                  <span><h4>PINCODE: </h4> 110086.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- /.row table-row -->
+      </div> <!-- /.container -->
+    </section>
+	
+	
+	    <!-- PORTFOLIO -->
+
+    <section id="portfolio" class="light">
+      <header class="title">
+        <h2>SKILL</h2>
+        <p>I can effectively contribute my skills, and innovative ideas to gain knowledge in the work oriented environment.</p>
+      </header>
+
+      <div class="container-fluid">
+        <div class="row">
+          <ul id="filters" class="list-inline">
+            <li data-filter="all" class="filter">All</li>
+            <li data-filter=".branding" class="filter"><abbr title="LOW LEVEL PROGRAMMING LANGUAGE">LLL</abbr></li> 
+            <li data-filter=".graphic" class="filter">EMBEDDED</li> 
+            <li data-filter=".printing" class="filter">WEB DESIGN</li> 
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="container-portfolio">
+            <!-- PORTFOLIO OBJECT -->
+            <script type="text/javascript">
+            var portfolio = [
+                    {
+                      category : "branding",
+                      image : "C-language.png",
+                      title : "C-language",
+                      link : "#none",
+                      text : "C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language."
+                    },
+                    {
+                      category : "graphic",
+                      image : "embedded.jpg",
+                      title : "Embedded <span>C</span>",
+                      link : "#none",
+                      text : "Embedded C is perhaps the most popular languages among Embedded Programmers for programming Embedded Systems."
+                    },
+                    {
+                      category : "graphic",
+                      image : "embeddedsystem.png",
+                      title : "Embedded <span>System</span>",
+                      link : "#none",
+                      text : "An Embedded System can be best described as a system which has both the hardware and software and is designed to do a specific task.."
+                    },
+                    {
+                      category : "printing",
+                      image : "html.png",
+                      title : "HTML",
+                      link : "#none",
+                      text : "HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page."
+                    },
+                    {
+                      category : "printing",
+                      image : "css.jpg",
+                      title : "CSS3",
+                      link : "#none",
+                      text : "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed."
+                    },
+                    {
+                      category : "printing",
+                      image : "js.png",
+                      title : "Java<span>Script</span>",
+                      link : "#none",
+                      text : "JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions."
+                    }
+                ];
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- TEAM -->
+
+    <section id="team" class="light">
+      <header class="title">
+        <h2>EDU<span>CATION</span></h2>
+      </header>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="school.JPG" alt="" class="img-circle">
+              </div>
+
+              <h3><b>Secondary School</b></h3>
+              <h4>Govt Boy's Senior Secondary School</h4>
+              <h5>Sultan Puri,Delhi</h5>
+              <p>8.2 CGPA.</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="favicon.png" alt="" class="img-circle">
+              </div>
+
+              <h3><b>Higher School</b></h3>
+              <h4>Govt Sarvodaya Bal Vidyalaya</h4>
+              <h5>Mangol Puri,Delhi</h5>
+              <br/>
+              <p>65%.</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="mdu.png" alt="" class="img-circle">
+              </div>
+
+              <h3><b>College</b></h3>
+              <h4>MDU</h4>
+              <h5>Rohtak Haryana.</h5>
+              <br/><br/>
+              
+              <p>66%.</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="DSC_0954.JPG" alt="" class="img-circle">
+              </div>
+
+              <h3><b>DEEPAK</b></h3>
+              <h4>GRADUATE</h4>
+              <br/><br/><br/>
+              <p>ELECTRONIC COMMUNICATION ENGGIERINNG.</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul> 
+              </div>                
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </section>
+	
+	    <!-- INFO -->
+
+    <section id="info" class="dark">
+      <header class="title">
+        <h2>Our <span>Experties</span></h2>
+        <p>As per my Profession & knowledge.</p>
+      </header>
+
+      <div class="container experties">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill">
+              <ul class="skill-bar list-unstyled">
+                <li><span class="percentage" data-value="60%"></span><em>Development</em></li>
+                <li><span class="percentage" data-value="35%"></span><em>Social</em></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="skill">
+              <ul class="skill-bar list-unstyled">
+                <li><span class="percentage" data-value="45%"></span><em>Graphic Design</em></li>
+                <li><span class="percentage" data-value="40%"></span><em>Logo</em></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </section>	
+	
+
+    <section class="separator blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="0">
+              <div class="counter-icon">
+                <i class="fa fa-group"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="50"></span>
+                <small>Friends</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="500">
+              <div class="counter-icon">
+                <i class="fa fa-leaf"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="8"></span>
+                <small>Awards</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
+              <div class="counter-icon">
+                <i class="fa fa-gears"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="30"></span>
+                <small>Projects(embedded)</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
+              <div class="counter-icon">
+                <i class="fa fa-inbox"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="1000"></span>
+                <small>Mail</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FOOTER CONTACT -->
+
+     <section id="contact" class="dark">
+      <header class="title">
+        <h2>CONTACT <span>Us</span></h2>
+        <p style="font-size: 30px;"> &#9786;&#9786;&#9786;&#9786;....</p>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 animated" data-animate="fadeInLeft">
+            <form action="#">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" rows="3" placeholder="Description"></textarea>
+                </div>
+                <div class="col-md-12">
+                  <button class="btn btn-default submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4 animated" data-animate="fadeInRight">
+            <address>
+                <span><i class="fa fa-map-marker fa-lg"></i> Sultan Puri</span>
+                <span><i class="fa fa-phone fa-lg"></i>+91- 7011672160</span>
+                <span><i class="fa fa-envelope-o fa-lg"></i> <a href="mailto:contact@example.com">dk603452&#64;gmail.com</a></span>
+            </address>
+          </div>
+		  
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Made BY <i class="fa fa-heart"></i> <a href="http://templatestock.co">BOSS</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   </div><!-- /.container-fluid -->
+    
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
